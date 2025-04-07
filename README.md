@@ -29,47 +29,13 @@ Make sure you have the following installed:
    https://github.com/kottp6/ResponsiveDashboard (my repo)
    cd ResponsiveDashboard
 2. Install dependencies:
-  npm install
-  # or if you're using yarn
-  yarn install
+  npm install or if you're using yarn :yarn install
 3. Start the development server:
-  npm run dev
-  # or if you're using yarn
-  yarn dev
+  npm run dev or if you're using yarn :yarn dev
 4.Open your browser and go to http://localhost:3000 to see the app running.
 
-Example of Project Structure
-react-dashboard-app/
-├── components/
-│   ├── auth/
-│   │   └── LoginForm.jsx
-│   ├── dashboard/
-│   │   ├── DataTable.jsx
-│   │   ├── Header.jsx
-│   │   └── BarChart.jsx
-│   ├── common/
-│   │   ├── Loading.jsx
-│   │   └── ProtectedRoute.jsx
-├── features/
-│   ├── auth/
-│   │   └── authSlice.js
-│   ├── table/
-│   │   └── tableSlice.js
-├── hooks/
-│   └── useTable.js
-├── pages/
-│   ├── index.jsx
-│   ├── login.jsx
-│   └── dashboard.jsx
-├── public/
-│   └── images/
-├── styles/
-│   └── tailwind.config.js
-├── utils/
-│   └── mockData.js
-├── README.md
-├── package.json
-└── .gitignore
+
+
 
 
 
